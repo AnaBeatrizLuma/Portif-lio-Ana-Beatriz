@@ -1,0 +1,138 @@
+/* ESTILO GERAL*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6a5792; 
+    height: 150vh;
+    position: fixed;
+
+}
+
+p{
+    text-align: justify;
+}
+.interface{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* ESTILO DO CADEÇARIO */ 
+
+header{
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    
+
+
+}
+
+.logo, img, a{
+
+    width: 70%;
+    
+
+}
+
+.menu-desktop {
+
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    gap: 130px;
+
+}
+.menu-desktop, a {
+    text-decoration: none;
+}
+
+
+/*ESTILO DO TOPO */
+section.topo{
+    padding: 20px 4%;
+    display: flex;
+}
+
+.topo h1{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 40px;
+ 
+}
+.topo h1 span{
+    color: #6a5792;
+    margin-top: 5px;
+
+}
+
+
+.topo .txttopo p{
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 30px;
+    margin-right: 10%;
+    margin-left: 10px;
+  
+}
+
+.contatbotao button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.imgtopo {
+    animation: flutuar 1.5s infinite ease-in-out;
+    width: 50%;
+    text-align: center;
+    margin-right: 0;
+    height: 100%;
+    display: grid;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+
+ 
+  
+}
+.imgtopo img{
+    display: grid;
+    width: 50%;
+    margin-left: 10%;
+  
+}
+
+.A{
+    background-color: #000;
+    width: 50%;
+     
+}
+
+@keyframes flutuar{
+    50%{
+        transform: translateY(-10%)
+    }
+}
+
+
+
+
+
